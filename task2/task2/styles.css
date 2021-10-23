@@ -1,11 +1,11 @@
-p {
+.paragraph {
     color: green;
 }
 
-li {
+.list {
     color: orange;
 }
 
-main {
+.main {
     font-size: 24px;
 }
