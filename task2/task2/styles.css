@@ -1,9 +1,11 @@
-main p {
+p {
     color: green;
-    font-size: 24px;
 }
 
-ul {
+li {
     color: orange;
+}
+
+main {
     font-size: 24px;
 }
