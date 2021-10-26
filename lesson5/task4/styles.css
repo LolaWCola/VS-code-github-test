@@ -27,6 +27,7 @@ li.new {
     background-color: red;
 }
 
-article.new.posted-today {
+article.new,
+article.posted-today {
     background-color: pink;
 }
