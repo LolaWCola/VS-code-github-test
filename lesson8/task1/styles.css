@@ -1,0 +1,23 @@
+* {
+    background-color: antiquewhite;
+}
+
+.first {
+    box-sizing: content-box;
+    border: 8px solid black;
+    margin: 16px;
+    padding: 16px;
+    width: 512px;
+    height: 128px;
+    background-color: antiquewhite;
+}
+
+.second {
+    box-sizing: border-box;
+    border: 8px solid black;
+    margin: 16px;
+    padding: 16px;
+    width: 512px;
+    height: 128px;
+    background-color: azure;
+}
