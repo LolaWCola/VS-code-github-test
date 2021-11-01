@@ -1,10 +1,25 @@
+.container {
+    height: 2000px;
+    position: static;
+}
+
 div {
     padding: 16px;
+}
+
+.static-parent {
+    position: static;
 }
 
 .child,
 .parent {
     border: 2px solid black;
+}
+
+.relative-parent {
+    position: relative;
+    top: 20px;
+    left: 50px;
 }
 
 .child {
@@ -17,6 +32,12 @@ div {
     width: 300px;
     height: 100px;
     background-color: yellowgreen;
+}
+
+.absolute-parent {
+    position: absolute;
+    right: 20px;
+    left: 50px;
 }
 
 .child {
@@ -35,23 +56,6 @@ div {
     height: 100px;
     background: green;
     float: left;
-}
-
-.container {
-    height: 2000px;
-    position: static;
-}
-
-.relative-parent {
-    position: relative;
-    top: 20px;
-    left: 50px;
-}
-
-.absolute-parent {
-    position: absolute;
-    right: 20px;
-    left: 50px;
 }
 
 .fixed-parent {
