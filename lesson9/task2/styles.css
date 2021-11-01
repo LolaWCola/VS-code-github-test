@@ -1,8 +1,11 @@
-.container {
-    float: left;
-    width: 50%;
-    background-color: aquamarine;
+* {
     box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    float: left;
+    background-color: aquamarine;
 }
 
 .green {
@@ -16,7 +19,5 @@
 }
 
 .footer {
-    height: 30px;
-    border: 2px solid black;
     clear: both;
 }
