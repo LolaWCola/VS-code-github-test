@@ -39,6 +39,7 @@ div {
 
 .container {
     height: 2000px;
+    position: static;
 }
 
 .static-parent {
