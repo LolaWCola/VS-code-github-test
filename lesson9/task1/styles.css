@@ -28,7 +28,6 @@ div {
     opacity: 1;
     background-color: whitesmoke;
     padding: 0 8px;
-    position: absolute;
 }
 
 .green {
@@ -40,7 +39,6 @@ div {
 
 .container {
     height: 2000px;
-    position: static;
 }
 
 .static-parent {
