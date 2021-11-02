@@ -5,8 +5,15 @@
     position: fixed;
 }
 
-.navigation,
-.nav-list {
+.nav-item:nth-child(1) {
+    height: 40px;
+}
+
+.nav-item:nth-child(2) {
+    height: 40px;
+}
+
+.nav-item:nth-child(3) {
     height: 40px;
 }
 
