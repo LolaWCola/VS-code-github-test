@@ -11,9 +11,9 @@
 }
 
 .nav-item {
-    float: left;
-    line-height: 100%;
+    line-height: 50%;
     margin-left: 16px;
+    float: left;
     color: white;
     list-style: none;
 }
