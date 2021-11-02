@@ -3,18 +3,7 @@
     height: 40px;
     width: 100%;
     position: fixed;
-}
-
-.nav-item:nth-child(1) {
-    height: 40px;
-}
-
-.nav-item:nth-child(2) {
-    height: 40px;
-}
-
-.nav-item:nth-child(3) {
-    height: 40px;
+    z-index: 200px;
 }
 
 .nav-item {
