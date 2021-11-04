@@ -1,0 +1,66 @@
+.page {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    height: 40px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    height: 40px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text {
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    flex-grow: 1;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: grey;
+}
+
+.sidebar>h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.news-list {
+    line-height: 40px;
+    padding-left: 16px;
+    list-style-type: none;
+}
+
+.dashboard {
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+}
+
+.navigation {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
