@@ -8,10 +8,15 @@
 
 .nav-item {
     float: left;
-    line-height: 50%;
-    padding-left: 16px;
+    line-height: 40px;
     color: white;
     list-style: none;
+    margin-left: 16px;
+}
+
+.nav-list {
+    margin: 0;
+    height: 40px;
 }
 
 .content {
