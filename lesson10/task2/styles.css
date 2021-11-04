@@ -1,0 +1,13 @@
+.block {
+    height: 100px;
+    display: flex;
+    flex-grow: 1;
+    min-width: 100px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
