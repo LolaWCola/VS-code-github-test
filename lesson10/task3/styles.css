@@ -13,9 +13,7 @@
 }
 
 .nav-item {
-    margin-left: 16px;
-    display: flex;
-    justify-content: center;
+    margin-right: 16px;
 }
 
 .footer {
@@ -46,9 +44,15 @@
 }
 
 .news-list {
-    line-height: 40px;
-    padding-left: 16px;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.news-item {
+    height: 40px;
+    line-height: 40px;
+    margin-left: 16px;
 }
 
 .dashboard {
@@ -61,6 +65,7 @@
 
 .navigation {
     margin: 0;
+    padding: 0;
     list-style-type: none;
     display: flex;
 }
