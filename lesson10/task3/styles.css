@@ -1,71 +1,71 @@
 .page {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .header {
-    height: 40px;
-    background-color: yellow;
-    display: flex;
-    align-items: center;
+  height: 40px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
 }
 
 .nav-item {
-    margin-right: 16px;
+  margin-right: 16px;
 }
 
 .footer {
-    height: 40px;
-    background-color: green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 40px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer_text {
-    margin: auto;
+  margin: auto;
 }
 
 .content {
-    display: flex;
-    flex-grow: 1;
+  display: flex;
+  flex-grow: 1;
 }
 
 .sidebar {
-    width: 200px;
-    background-color: grey;
+  width: 200px;
+  background-color: grey;
 }
 
-.sidebar>h2 {
-    display: flex;
-    justify-content: center;
+.sidebar > h2 {
+  display: flex;
+  justify-content: center;
 }
 
 .news-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .news-item {
-    height: 40px;
-    line-height: 40px;
-    margin-left: 16px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 16px;
 }
 
 .dashboard {
-    background-color: pink;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-grow: 1;
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
 }
 
 .navigation {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
 }
