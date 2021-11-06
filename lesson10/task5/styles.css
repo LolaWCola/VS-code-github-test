@@ -1,4 +1,4 @@
-* {
+body {
     box-sizing: border-box;
 }
 
@@ -17,7 +17,7 @@ header>h1 {
     display: flex;
     flex-grow: 1;
     flex-shrink: 1;
-    min-width: 300px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-basis: auto;
+    min-width: 300px;
 }
