@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+header>h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.article {
+    margin: 8px;
+    padding: 16px;
+    background-color: bisque;
+}
+
+.articles-list {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 300px;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
