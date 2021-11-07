@@ -9,7 +9,7 @@ header>h1 {
 
 .articles-list {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .article {
