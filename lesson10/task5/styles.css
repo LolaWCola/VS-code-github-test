@@ -1,4 +1,4 @@
-body {
+* {
     box-sizing: border-box;
 }
 
@@ -7,17 +7,16 @@ header>h1 {
     justify-content: center;
 }
 
-.article {
-    margin: 8px;
-    padding: 16px;
-    background-color: bisque;
-}
-
 .articles-list {
     display: flex;
     flex-grow: 1;
     flex-shrink: 1;
+    flex-basis: 300px;
     flex-wrap: nowrap;
-    flex-basis: auto;
-    min-width: 300px;
+}
+
+.article {
+    margin: 8px;
+    padding: 16px;
+    background-color: bisque;
 }
