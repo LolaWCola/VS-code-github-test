@@ -1,49 +1,33 @@
+.container {
+    display: flex;
+}
+
 .block_red {
-    background-color: red;
-    display: inline-flex;
     height: 300px;
     width: 20%;
-    flex-wrap: nowrap;
-    margin: 0;
-    padding: 0;
+    background-color: red;
 }
 
 .block_green {
-    background-color: green;
-    display: inline-flex;
     height: 300px;
     width: 20%;
-    flex-wrap: nowrap;
-    margin: 0;
-    padding: 0;
+    background-color: green;
 }
 
 .block_blue {
-    background-color: blue;
-    display: inline-flex;
     height: 300px;
     width: 20%;
-    flex-wrap: nowrap;
-    margin: 0;
-    padding: 0;
+    background-color: blue;
 }
 
 .block_yellow {
-    background-color: yellow;
-    display: inline-flex;
     height: 300px;
     width: 20%;
-    flex-wrap: nowrap;
-    margin: 0;
-    padding: 0;
+    background-color: yellow;
 }
 
 .block_black {
-    background-color: black;
-    display: inline-flex;
     height: 300px;
     width: 20%;
-    flex-wrap: nowrap;
-    margin: 0;
-    padding: 0;
+    background-color: black;
 }
