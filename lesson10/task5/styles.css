@@ -9,12 +9,12 @@ header>h1 {
 
 .articles-list {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .article {
-    margin: 8px 8px;
-    padding: 16px 16px;
+    margin: 8px;
+    padding: 16px;
     background-color: bisque;
     flex-grow: 1;
     flex-shrink: 1;
