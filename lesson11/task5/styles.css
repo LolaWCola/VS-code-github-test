@@ -1,0 +1,13 @@
+body {
+    overflow: hidden;
+}
+
+.gallery:hover {
+    cursor: all-scroll;
+}
+
+.gallery {
+    margin: 8px auto;
+    overflow: scroll;
+    white-space: nowrap;
+}
