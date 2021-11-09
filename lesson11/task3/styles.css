@@ -3,7 +3,7 @@
 }
 
 .menu-list {
-    opacity: 0.8;
+    opacity: 1;
     position: absolute;
     top: 50px;
     left: 0px;
@@ -28,7 +28,6 @@
 
 .dropdown:hover .menu-list {
     display: block;
-    opacity: 1;
 }
 
 .dropdown {
