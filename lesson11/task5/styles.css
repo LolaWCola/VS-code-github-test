@@ -6,8 +6,11 @@ body {
     cursor: all-scroll;
 }
 
+.thumb {
+    margin: 8px;
+}
+
 .gallery {
-    margin: 8px auto;
     overflow: scroll;
     white-space: nowrap;
 }
