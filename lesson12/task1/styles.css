@@ -1,5 +1,5 @@
 html {
-    margin: 32px;
+    margin: 32px 32px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
@@ -7,17 +7,17 @@ html {
 h1 {
     word-spacing: 20px;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 p {
     line-height: 28px;
 }
 
-.text {
+b {
     letter-spacing: 3px;
     font-size: 24px;
-    opacity: 0.8;
+    opacity: 80%;
     text-decoration: underline;
 }
 
