@@ -1,20 +1,14 @@
 html {
     font-size: 18px;
-    
 }
+
 .properties-list_item {
     padding: 8px;
-    
-    
-  
-
 }
+
 .properties-list {
-    line-height:32px;
+    line-height: 32px;
     color: #f39;
     font-size: 24px;
-   list-style-type: none;
-    
-
+    list-style-type: none;
 }
-
