@@ -16,7 +16,7 @@
 
 .image {
     position: relative;
-    flex-basis: auto;
+    flex-basis: 1;
     flex-grow: 0;
     flex-shrink: 1;
 }
