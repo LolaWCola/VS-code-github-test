@@ -17,8 +17,7 @@
 .image {
     flex-grow: 0;
     flex-shrink: 1;
-    overflow: hidden;
-    background-size: cover;
+    max-width: 100%;
 }
 
 .image-container {
