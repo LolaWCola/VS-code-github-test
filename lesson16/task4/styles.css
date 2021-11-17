@@ -2,21 +2,19 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: bisque;
-}
-
 .page {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-size: 16px;
+    font-family: monospace;
+    background-color: bisque;
 }
 
 .login-form {
     background-color: aqua;
-    font-size: 16px;
-    font-family: monospace;
+    margin: auto;
     width: 300px;
     padding: 16px;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
