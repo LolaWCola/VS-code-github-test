@@ -5,6 +5,7 @@
 table {
     width: 500px;
     margin: 16px;
+    padding: 4px;
 }
 
 table,
@@ -15,7 +16,6 @@ th {
 }
 
 tr {
-    padding: 4px;
     text-align: right;
     line-height: 40px;
 }
