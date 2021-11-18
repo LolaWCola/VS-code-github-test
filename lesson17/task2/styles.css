@@ -5,7 +5,6 @@
 table {
     width: 500px;
     margin: 16px;
-    line-height: 40px;
 }
 
 table,
@@ -15,10 +14,10 @@ th {
     border-collapse: collapse;
 }
 
-td,
-th {
+tr {
     padding: 4px;
     text-align: right;
+    line-height: 40px;
 }
 
 tbody>tr:nth-child(odd) {
