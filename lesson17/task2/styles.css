@@ -5,6 +5,7 @@
 table {
     width: 500px;
     margin: 16px;
+    line-height: 40px;
 }
 
 table,
@@ -18,7 +19,6 @@ td,
 th {
     padding: 4px;
     text-align: right;
-    line-height: 40px;
 }
 
 tbody>tr:nth-child(odd) {
@@ -39,7 +39,7 @@ tfoot {
 }
 
 caption {
-    margin: 8px;
+    margin-bottom: 8px;
 }
 
 div {
