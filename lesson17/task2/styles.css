@@ -14,10 +14,11 @@ th {
     border-collapse: collapse;
 }
 
-tr {
-    line-height: 40px;
-    padding: 4px 4px;
+th,
+td {
+    padding: 4px;
     text-align: right;
+    height: 40px;
 }
 
 tbody>tr:nth-child(odd) {
