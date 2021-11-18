@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+table,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 16px;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+}
+
+.main {
+    border: none;
+}
+
+tr:nth-of-type(1)>td {
+    border: none;
+}
+
+tr:nth-of-type(10)>td {
+    border: none;
+}
