@@ -9,11 +9,10 @@ html {
     height: 100%;
 }
 
-body {
-    min-height: 100%;
-    margin: 0;
+.wrapper {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .header {
@@ -89,7 +88,13 @@ body {
 }
 
 .main {
-    flex-grow: 1;
-    height: 100vh;
     display: flex;
+    height: 100vh;
+    flex: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
