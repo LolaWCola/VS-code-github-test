@@ -1,9 +1,15 @@
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     width: 100vw;
+}
+
+.spinner {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 * {
@@ -30,7 +36,6 @@
 }
 
 .circle {
-    margin: 0 auto;
     width: 50px;
     height: 50px;
     border-radius: 100%;
