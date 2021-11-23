@@ -17,9 +17,13 @@ html {
 }
 
 .footer {
+    margin-top: auto;
     display: flex;
     justify-content: center;
+    align-self: flex-end;
+    flex: 0 0 auto;
     flex-shrink: 0;
+    max-height: 100vh;
     background-color: #e5e5e5;
     padding: 0.5em;
 }
@@ -34,10 +38,6 @@ html {
     padding: 0.5em;
 }
 
-.main.section {
-    font-size: 1.25em;
-}
-
 .news {
     width: 20%;
     padding: 0.5em;
@@ -50,7 +50,7 @@ html {
 .css-units {
     color: #8b0000;
     background-color: #e5e5e5;
-    font-size: 1.125rem;
+    font-size: 1.125em;
     font-weight: 700;
 }
 
@@ -86,7 +86,8 @@ html {
 }
 
 .main {
-    height: 100vh;
-    flex: 1 0 auto;
+    margin: 0;
+    min-height: 100vh;
     display: flex;
+    font-size: 1.25em;
 }
