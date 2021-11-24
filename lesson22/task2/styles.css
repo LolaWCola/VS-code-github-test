@@ -2,21 +2,21 @@
     background-color: #ff7f50;
     display: flex;
     height: 200px;
-    flex-grow: 1;
+    flex: 1;
 }
 
 .products-list {
     background-color: #006400;
     display: flex;
     height: 200px;
-    flex-grow: 1;
+    flex: 1;
 }
 
 .news {
     background-color: #0ff;
     display: flex;
     height: 200px;
-    flex-grow: 1;
+    flex: 1;
 }
 
 span {
@@ -31,13 +31,13 @@ span {
 @media screen and (min-width: 600px) {
     .products {
         display: flex;
-        flex-grow: 2;
+        flex: 2;
     }
 }
 
 @media screen and (min-width: 900px) {
     .content {
         display: flex;
-        flex-grow: 1;
+        flex: 1;
     }
 }
