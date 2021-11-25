@@ -4,5 +4,6 @@ main {
 
 picture {
     max-width: 100%;
+    background-size: contain;
     margin: auto;
 }
