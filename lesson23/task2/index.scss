@@ -17,7 +17,6 @@
 }
 
 .square {
-    background-color: #a61;
     width: 100px;
     height: 100px;
     margin: 8px;
@@ -28,9 +27,9 @@
         background-color: #8a2be2;
     }
     @include for-large-up {
-        background-color: #a61;
+        background-color: #c47;
     }
     @include for-extra-large {
-        background-color: #c47;
+        background-color: #a61;
     }
 }
