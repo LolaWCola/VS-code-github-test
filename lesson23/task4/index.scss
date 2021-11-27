@@ -1,23 +1,34 @@
 @import 'layout.scss';
-.navigation {
-    background-color: #ff7f50;
-    display: flex;
-    height: 200px;
-    flex: 1;
+.products {
+    &__list {
+        background-color: #006400;
+        display: flex;
+        height: 200px;
+        flex: 1;
+    }
+    &__navigation {
+        background-color: #ff7f50;
+        display: flex;
+        height: 200px;
+        flex: 1;
+    }
+    @include for-small {
+        display: flex;
+        flex: 2;
+    }
 }
 
-.products-list {
-    background-color: #006400;
-    display: flex;
-    height: 200px;
-    flex: 1;
-}
-
-.news {
-    background-color: #0ff;
-    display: flex;
-    height: 200px;
-    flex: 1;
+.content {
+    &__news {
+        background-color: #0ff;
+        display: flex;
+        height: 200px;
+        flex: 1;
+    }
+    @include for-large {
+        display: flex;
+        flex: 1;
+    }
 }
 
 span {
@@ -27,18 +38,4 @@ span {
     background-color: #faebd7;
     border-radius: 4px;
     margin: auto;
-}
-
-.products {
-    @include for-small {
-        display: flex;
-        flex: 2;
-    }
-}
-
-.content {
-    @include for-large {
-        display: flex;
-        flex: 1;
-    }
 }
