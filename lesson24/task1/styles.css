@@ -44,10 +44,19 @@
 .header__menu-button {
   width: 58px;
   border-left: 1px solid #2b292d33;
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
   height: 100%;
-  margin-left: auto;
+  display: block;
   background: transparent;
-  border: none;
+  margin-left: 74px;
+}
+@media screen and (min-width: 400px) {
+  .header__menu-button {
+    border: none;
+    display: none;
+  }
 }
 .header__menu-icon {
   width: 18px;
@@ -363,7 +372,7 @@
   }
 }
 .headline__content {
-  margin: 35px 15px 33px 15px;
+  padding: 35px 15px 33px 15px;
 }
 @media screen and (min-width: 400px) {
   .headline__content {
@@ -412,6 +421,7 @@
 }
 .headline__actions {
   margin-top: 30px;
+  margin: 0;
 }
 @media screen and (min-width: 400px) {
   .headline__actions {
@@ -443,11 +453,20 @@
 }
 
 .headline__action-btn {
-  margin-right: 10px;
   margin-bottom: 15px;
+  margin-right: 10px;
 }
 @media screen and (max-width: 399px) {
   .headline__action-btn {
+    width: 100%;
+  }
+}
+
+.headline__action-learn-btn {
+  margin: 0;
+}
+@media screen and (max-width: 399px) {
+  .headline__action-learn-btn {
     width: 100%;
   }
 }
@@ -991,7 +1010,7 @@
 }
 .audience__subtitle {
   margin: 0;
-  margin-top: 50px;
+  padding: 0;
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
