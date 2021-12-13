@@ -25,6 +25,7 @@
     height: 100%;
     background: transparent;
     margin-left: auto;
+    padding: 0;
     @include for-big-page {
       display: none;
     }
@@ -33,7 +34,7 @@
     width: 18px;
     height: 13px;
     display: inline-block;
-    background-position: center;
+
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
     @include for-big-page {
       display: none;
