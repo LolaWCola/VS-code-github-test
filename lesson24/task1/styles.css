@@ -1062,6 +1062,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 30px;
+  margin-bottom: 40px;
 }
 @media screen and (min-width: 400px) {
   .audience__buttons {
@@ -1082,7 +1083,7 @@
   color: #2b292d;
 }
 .audience__banners {
-  margin-top: 25px;
+  margin-top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1096,8 +1097,8 @@
   }
 }
 .audience__banners-user {
-  margin-top: 15px;
-  position: relative;
+  margin-top: 0;
+  margin-bottom: 15px;
   text-align: center;
   width: 290px;
   height: 300px;
@@ -1110,6 +1111,7 @@
 }
 @media screen and (min-width: 400px) {
   .audience__banners-user {
+    position: relative;
     width: 262px;
     height: 300px;
     margin-bottom: 110px;
@@ -1126,10 +1128,11 @@
   color: #ffffff;
 }
 .audience__banners-photo {
-  padding-top: 22px;
+  padding: 22px 76px;
   margin: 0;
 }
 .audience__banners-text {
+  margin: 0 20px 33px 20px;
   text-align: center;
   font-weight: 700;
   font-size: 22px;
