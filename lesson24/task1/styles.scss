@@ -22,6 +22,7 @@ html {
 }
 
 .page {
+  width: 100%;
   @include for-big-page {
     max-width: 1400px;
     margin: auto;
