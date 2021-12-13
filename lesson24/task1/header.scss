@@ -21,10 +21,17 @@
     &__menu-button {
         width: 58px;
         border-left: 1px solid $border-color;
+        border-bottom: none;
+        border-right: none;
+        border-top: none;
         height: 100%;
-        margin-left: auto;
+        display: block;
         background: transparent;
-        border: none;
+        margin-left: 74px;
+        @include for-big-page {
+            border: none;
+            display: none;
+        }
     }
     &__menu-icon {
         width: 18px;
