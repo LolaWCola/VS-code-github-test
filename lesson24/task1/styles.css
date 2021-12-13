@@ -43,17 +43,14 @@
 }
 .header__menu-button {
   width: 58px;
+  border: none;
   border-left: 1px solid #2b292d33;
-  border-bottom: none;
-  border-right: none;
-  border-top: none;
   height: 100%;
   background: transparent;
   margin-left: auto;
 }
 @media screen and (min-width: 400px) {
   .header__menu-button {
-    border: none;
     display: none;
   }
 }
@@ -371,7 +368,7 @@
   }
 }
 .headline__content {
-  padding: 35px 15px 33px 15px;
+  margin: 35px 15px 33px 15px;
 }
 @media screen and (min-width: 400px) {
   .headline__content {
@@ -1077,6 +1074,9 @@
 }
 .audience__action-btn {
   margin-right: 10px;
+  width: 100%;
+}
+.audience__learn-more-btn {
   margin-top: 12px;
   width: 100%;
 }
