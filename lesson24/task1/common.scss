@@ -25,31 +25,31 @@ $color-grey: #d5d4d5;
 $lg: 400px;
 $sm: 399px;
 @mixin for-big-page {
-    @media screen and (min-width: $lg) {
-        @content;
-    }
+  @media screen and (min-width: $lg) {
+    @content;
+  }
 }
 
 @mixin for-small-page {
-    @media screen and (max-width: $sm) {
-        @content;
-    }
+  @media screen and (max-width: $sm) {
+    @content;
+  }
 }
 
 .action-button {
-    width: 160px;
-    height: 48px;
-    background-color: $color-button-blue;
-    font-size: 18px;
-    font-weight: 700;
-    color: #ffffff;
-    border-radius: 2px;
-    border: none;
+  width: 160px;
+  height: 48px;
+  background-color: $color-button-blue;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 2px;
+  border: none;
 }
 
 .icon-arrow_right {
-    display: block;
-    width: 7px;
-    height: 12px;
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
+  display: block;
+  width: 7px;
+  height: 12px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
 }
