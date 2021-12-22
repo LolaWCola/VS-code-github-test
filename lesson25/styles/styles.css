@@ -17,7 +17,8 @@ html {
   margin-right: 18px;
 }
 .price-card__block {
-  padding: 115px 132px 118px 132px;
+  padding: 112px 132px 115px 132px;
+  margin: auto;
   display: flex;
   justify-content: center;
 }
