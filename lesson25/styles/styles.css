@@ -10,6 +10,8 @@ html {
 }
 
 .price-card {
+  margin-top: 115px;
+  margin-bottom: 115px;
   max-width: 380px;
   flex: 1;
   background: #334247;
@@ -17,7 +19,6 @@ html {
   margin-right: 18px;
 }
 .price-card__block {
-  margin: 112px auto;
   display: flex;
   justify-content: center;
 }
