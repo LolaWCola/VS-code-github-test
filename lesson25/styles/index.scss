@@ -71,14 +71,14 @@ html {
             background: #334247;
             mix-blend-mode: normal;
             list-style-position: inside;
-            padding: 18px 21px 19px 15px;
+            padding: 18px 21px 19px 22px;
         }
         &_item-text {
             padding: 16px 21px 16px 15px;
             font-weight: 300;
             font-size: 15px;
             line-height: 18px;
-            color: #ffffff;
+            color: rgba(255, 255, 255, 1);
         }
         &_item:nth-child(odd) {
             background: #2a3438;
