@@ -42,7 +42,7 @@ html {
   margin: 0;
 }
 .price-card__price {
-  max-width: 380px;
+  min-width: 380px;
   font-weight: 700;
   font-size: 55px;
   line-height: 67px;
