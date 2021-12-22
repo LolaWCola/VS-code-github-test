@@ -76,7 +76,7 @@ html {
   padding: 18px 21px 19px 22px;
 }
 .price-card__options-list_item-text {
-  padding: 16px 21px 16px 15px;
+  padding: auto 21px auto 15px;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
