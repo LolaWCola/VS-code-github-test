@@ -34,9 +34,10 @@ html {
             padding: 0;
         }
         &-description {
+            font-weight: 300;
             font-size: 20px;
             line-height: 24px;
-            color: rgba(255, 255, 255, 1);
+            color: rgba(255, 255, 255, 0.6);
             margin: 0;
         }
     }
@@ -49,6 +50,7 @@ html {
         color: #ffffff;
         padding: 19px 110px;
         margin-top: 33px;
+        margin-bottom: 0;
     }
     &__description {
         margin: 40px 26px;
@@ -57,7 +59,7 @@ html {
         font-size: 15px;
         line-height: 18px;
         text-align: center;
-        color: #ffffff;
+        color: rgba(255, 255, 255, 0.6);
     }
     &__options-list {
         max-width: 380px;
@@ -72,14 +74,14 @@ html {
             mix-blend-mode: normal;
             list-style-position: inside;
             padding: 16px 21px 16px 22px;
-        }
-        &_item-text {
-            padding: 0;
-            padding-left: 15px;
-            font-weight: 300;
-            font-size: 15px;
-            line-height: 18px;
-            color: rgba(255, 255, 255, 1);
+            &-text {
+                padding: 0;
+                padding-left: 15px;
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 18px;
+                color: rgba(255, 255, 255, 0.6);
+            }
         }
         &_item:nth-child(odd) {
             background: #2a3438;
