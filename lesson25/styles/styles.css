@@ -69,6 +69,7 @@ html {
   margin-bottom: 39px;
 }
 .price-card__options-list_item {
+  max-height: 50px;
   background: #334247;
   mix-blend-mode: normal;
   list-style-position: inside;

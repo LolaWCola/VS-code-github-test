@@ -67,6 +67,7 @@ html {
         margin-top: 0;
         margin-bottom: 39px;
         &_item {
+            max-height: 50px;
             background: #334247;
             mix-blend-mode: normal;
             list-style-position: inside;
