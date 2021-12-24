@@ -12,12 +12,40 @@ body {
   display: flex;
 }
 
+.badge {
+  position: absolute;
+  left: 276px;
+  width: 122px;
+  height: 123px;
+  overflow: hidden;
+}
+
+.rectangle {
+  width: 25px;
+  height: 147px;
+  position: absolute;
+  left: -40px;
+  top: -27px;
+  transform: rotate(45deg);
+}
+
+.rectangle > span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  background: #dc3f45;
+  padding: 0 37px;
+}
+
 .price-table {
   display: flex;
   margin: auto;
 }
 
 .price-card {
+  overflow: hidden;
+  position: relative;
   max-width: 380px;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
