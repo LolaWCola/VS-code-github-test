@@ -51,6 +51,9 @@ body {
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   margin-right: 18px;
 }
+.price-card:last-of-type {
+  margin-right: 0;
+}
 .price-card__title {
   margin: 33px auto;
   text-align: center;
